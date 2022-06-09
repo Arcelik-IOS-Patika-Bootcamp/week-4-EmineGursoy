@@ -15,6 +15,8 @@
 		CC86AD3D285128E600B810E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC86AD3B285128E600B810E1 /* LaunchScreen.storyboard */; };
 		CC86AD48285128E700B810E1 /* CryptocurrencyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86AD47285128E700B810E1 /* CryptocurrencyAppTests.swift */; };
 		CC86AD53285128E700B810E1 /* CryptocurrencyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86AD52285128E700B810E1 /* CryptocurrencyAppUITests.swift */; };
+		CC86AD6428512F1100B810E1 /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86AD6328512F1100B810E1 /* HomepageViewController.swift */; };
+		CC86AD6928512F4C00B810E1 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86AD6828512F4C00B810E1 /* FavoritesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		CC86AD4E285128E700B810E1 /* CryptocurrencyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptocurrencyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC86AD52285128E700B810E1 /* CryptocurrencyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptocurrencyAppUITests.swift; sourceTree = "<group>"; };
 		CC86AD54285128E700B810E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC86AD6328512F1100B810E1 /* HomepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
+		CC86AD6828512F4C00B810E1 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				CC86AD30285128E100B810E1 /* AppDelegate.swift */,
 				CC86AD32285128E100B810E1 /* SceneDelegate.swift */,
 				CC86AD34285128E100B810E1 /* ViewController.swift */,
+				CC86AD6328512F1100B810E1 /* HomepageViewController.swift */,
+				CC86AD6828512F4C00B810E1 /* FavoritesViewController.swift */,
 				CC86AD36285128E100B810E1 /* Main.storyboard */,
 				CC86AD39285128E600B810E1 /* Assets.xcassets */,
 				CC86AD3B285128E600B810E1 /* LaunchScreen.storyboard */,
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC86AD6428512F1100B810E1 /* HomepageViewController.swift in Sources */,
 				CC86AD35285128E100B810E1 /* ViewController.swift in Sources */,
 				CC86AD31285128E100B810E1 /* AppDelegate.swift in Sources */,
+				CC86AD6928512F4C00B810E1 /* FavoritesViewController.swift in Sources */,
 				CC86AD33285128E100B810E1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
