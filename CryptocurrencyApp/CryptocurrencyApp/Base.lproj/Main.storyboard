@@ -36,23 +36,42 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="esN-yj-cfr">
+                                <rect key="frame" x="0.0" y="100" width="414" height="796"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="796" id="pFU-i1-hZr"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="BZt-Dn-Nyr">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4Pk-LZ-BXo"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="jN2-10-et7" firstAttribute="leading" secondItem="4Pk-LZ-BXo" secondAttribute="leading" id="5cT-Ka-lKJ"/>
+                            <constraint firstItem="4Pk-LZ-BXo" firstAttribute="trailing" secondItem="esN-yj-cfr" secondAttribute="trailing" id="L99-S0-BMb"/>
+                            <constraint firstItem="esN-yj-cfr" firstAttribute="top" secondItem="jN2-10-et7" secondAttribute="bottom" id="Nc6-52-BGm"/>
+                            <constraint firstAttribute="bottom" secondItem="esN-yj-cfr" secondAttribute="bottom" id="Ulg-9S-d8w"/>
                             <constraint firstItem="jN2-10-et7" firstAttribute="trailing" secondItem="4Pk-LZ-BXo" secondAttribute="trailing" id="ZGI-xt-iim"/>
                             <constraint firstItem="jN2-10-et7" firstAttribute="top" secondItem="4Pk-LZ-BXo" secondAttribute="top" id="udu-r9-cqo"/>
+                            <constraint firstItem="esN-yj-cfr" firstAttribute="leading" secondItem="4Pk-LZ-BXo" secondAttribute="leading" id="zNV-uc-517"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Homepage" image="house.fill" catalog="system" id="G0p-wF-nuw"/>
                     <connections>
+                        <outlet property="collectionView" destination="esN-yj-cfr" id="dgQ-eh-6Nr"/>
                         <outlet property="searchBar" destination="jN2-10-et7" id="4hb-oi-Wwn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jfw-li-UL8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-549" y="-428"/>
+            <point key="canvasLocation" x="-549.27536231884062" y="-428.57142857142856"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="7sF-S3-b4r">

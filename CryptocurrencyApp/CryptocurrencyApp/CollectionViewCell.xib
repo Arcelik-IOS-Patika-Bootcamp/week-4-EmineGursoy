@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CollectionViewCell" customModule="CryptocurrencyApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="379" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="379" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sLX-ui-dU0">
+                        <rect key="frame" x="0.0" y="0.0" width="379" height="50"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JYd-yM-nUz">
+                                <rect key="frame" x="8" y="8" width="240" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="xN9-LD-pDc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="cryptocurrencyButtonClicked:" destination="gTV-IL-0wX" eventType="touchUpInside" id="4k8-VA-Gqw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eP0-Q0-Msb">
+                                <rect key="frame" x="308" y="2" width="41" height="46"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" image="heart" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="25"/>
+                                </state>
+                                <connections>
+                                    <action selector="likeButtonClicked:" destination="gTV-IL-0wX" eventType="touchUpInside" id="sfk-mM-ZmR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eP0-Q0-Msb" firstAttribute="top" secondItem="sLX-ui-dU0" secondAttribute="top" constant="2" id="4hd-Tk-fXu"/>
+                            <constraint firstItem="eP0-Q0-Msb" firstAttribute="leading" secondItem="JYd-yM-nUz" secondAttribute="trailing" constant="60" id="8XL-7W-4Xz"/>
+                            <constraint firstItem="JYd-yM-nUz" firstAttribute="leading" secondItem="sLX-ui-dU0" secondAttribute="leading" constant="8" id="G3b-TB-mNr"/>
+                            <constraint firstAttribute="trailing" secondItem="eP0-Q0-Msb" secondAttribute="trailing" constant="30" id="Nsy-oc-aKc"/>
+                            <constraint firstAttribute="bottom" secondItem="eP0-Q0-Msb" secondAttribute="bottom" constant="2" id="ZYH-Gh-XM8"/>
+                            <constraint firstItem="JYd-yM-nUz" firstAttribute="top" secondItem="sLX-ui-dU0" secondAttribute="top" constant="8" id="hXj-wr-PWa"/>
+                            <constraint firstAttribute="bottom" secondItem="JYd-yM-nUz" secondAttribute="bottom" constant="8" id="pLe-mM-IDJ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="sLX-ui-dU0" secondAttribute="bottom" id="SM7-3d-E33"/>
+                <constraint firstItem="sLX-ui-dU0" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="TIP-6x-ft5"/>
+                <constraint firstItem="sLX-ui-dU0" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="jvI-1D-vpB"/>
+                <constraint firstAttribute="trailing" secondItem="sLX-ui-dU0" secondAttribute="trailing" id="rly-Sn-ixH"/>
+            </constraints>
+            <size key="customSize" width="379" height="50"/>
+            <connections>
+                <outlet property="containerView" destination="sLX-ui-dU0" id="6T0-09-N0C"/>
+                <outlet property="cryptocurrencyButton" destination="JYd-yM-nUz" id="uYX-u3-QIl"/>
+                <outlet property="likeButton" destination="eP0-Q0-Msb" id="vzZ-4p-sZE"/>
+            </connections>
+            <point key="canvasLocation" x="376.08695652173918" y="83.705357142857139"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="heart" catalog="system" width="128" height="109"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

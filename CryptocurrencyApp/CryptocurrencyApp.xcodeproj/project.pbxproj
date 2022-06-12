@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC8347B928527A6500E92E42 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8347B728527A6400E92E42 /* CollectionViewCell.swift */; };
+		CC8347BA28527A6500E92E42 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC8347B828527A6500E92E42 /* CollectionViewCell.xib */; };
 		CC86AD31285128E100B810E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86AD30285128E100B810E1 /* AppDelegate.swift */; };
 		CC86AD33285128E100B810E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86AD32285128E100B810E1 /* SceneDelegate.swift */; };
 		CC86AD35285128E100B810E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86AD34285128E100B810E1 /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC8347B728527A6400E92E42 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		CC8347B828527A6500E92E42 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		CC86AD2D285128E100B810E1 /* CryptocurrencyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptocurrencyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC86AD30285128E100B810E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC86AD32285128E100B810E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 				CC86AD39285128E600B810E1 /* Assets.xcassets */,
 				CC86AD3B285128E600B810E1 /* LaunchScreen.storyboard */,
 				CC86AD3E285128E600B810E1 /* Info.plist */,
+				CC8347B728527A6400E92E42 /* CollectionViewCell.swift */,
+				CC8347B828527A6500E92E42 /* CollectionViewCell.xib */,
 			);
 			path = CryptocurrencyApp;
 			sourceTree = "<group>";
@@ -239,6 +245,7 @@
 			files = (
 				CC86AD3D285128E600B810E1 /* LaunchScreen.storyboard in Resources */,
 				CC86AD3A285128E600B810E1 /* Assets.xcassets in Resources */,
+				CC8347BA28527A6500E92E42 /* CollectionViewCell.xib in Resources */,
 				CC86AD38285128E100B810E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +273,7 @@
 			files = (
 				CC86AD6428512F1100B810E1 /* HomepageViewController.swift in Sources */,
 				CC86AD35285128E100B810E1 /* ViewController.swift in Sources */,
+				CC8347B928527A6500E92E42 /* CollectionViewCell.swift in Sources */,
 				CC86AD31285128E100B810E1 /* AppDelegate.swift in Sources */,
 				CC86AD6928512F4C00B810E1 /* FavoritesViewController.swift in Sources */,
 				CC86AD33285128E100B810E1 /* SceneDelegate.swift in Sources */,
