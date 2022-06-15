@@ -27,7 +27,7 @@
         <!--Homepage-->
         <scene sceneID="yyi-5e-4gQ">
             <objects>
-                <viewController id="fpN-3x-jXp" customClass="HomepageViewController" customModule="CryptocurrencyApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fpN-3x-jXp" customClass="HomeScreen" customModule="CryptocurrencyApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="h6S-r5-M3C">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -65,8 +65,8 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Homepage" image="house.fill" catalog="system" id="G0p-wF-nuw"/>
                     <connections>
-                        <outlet property="collectionView" destination="esN-yj-cfr" id="dgQ-eh-6Nr"/>
-                        <outlet property="searchBar" destination="jN2-10-et7" id="4hb-oi-Wwn"/>
+                        <outlet property="cryptosCollectionView" destination="esN-yj-cfr" id="uxH-jY-XOk"/>
+                        <outlet property="searchBar" destination="jN2-10-et7" id="u4d-zl-aho"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jfw-li-UL8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -76,7 +76,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="7sF-S3-b4r">
             <objects>
-                <tabBarController id="qY1-Ch-cO6" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TabBarController" id="qY1-Ch-cO6" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xwN-N3-iRn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

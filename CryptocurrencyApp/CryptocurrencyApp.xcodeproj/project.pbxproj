@@ -3,12 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		CC8347B928527A6500E92E42 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8347B728527A6400E92E42 /* CollectionViewCell.swift */; };
 		CC8347BA28527A6500E92E42 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC8347B828527A6500E92E42 /* CollectionViewCell.xib */; };
+		CC8347BF2857B5FB00E92E42 /* CryptoCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8347BE2857B5F900E92E42 /* CryptoCurrency.swift */; };
+		CC8347C42857CBA600E92E42 /* CurrencyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8347C32857CBA600E92E42 /* CurrencyService.swift */; };
 		CC86AD31285128E100B810E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86AD30285128E100B810E1 /* AppDelegate.swift */; };
 		CC86AD33285128E100B810E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86AD32285128E100B810E1 /* SceneDelegate.swift */; };
 		CC86AD35285128E100B810E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86AD34285128E100B810E1 /* ViewController.swift */; };
@@ -17,8 +19,12 @@
 		CC86AD3D285128E600B810E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC86AD3B285128E600B810E1 /* LaunchScreen.storyboard */; };
 		CC86AD48285128E700B810E1 /* CryptocurrencyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86AD47285128E700B810E1 /* CryptocurrencyAppTests.swift */; };
 		CC86AD53285128E700B810E1 /* CryptocurrencyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86AD52285128E700B810E1 /* CryptocurrencyAppUITests.swift */; };
-		CC86AD6428512F1100B810E1 /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86AD6328512F1100B810E1 /* HomepageViewController.swift */; };
 		CC86AD6928512F4C00B810E1 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86AD6828512F4C00B810E1 /* FavoritesViewController.swift */; };
+		CC8B3F702859F997008039C3 /* HomeScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8B3F6F2859F997008039C3 /* HomeScreenViewModel.swift */; };
+		CC8B3F782859FED6008039C3 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8B3F772859FED6008039C3 /* HomeScreen.swift */; };
+		CC8B3F7E2859FF9C008039C3 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8B3F7D2859FF9C008039C3 /* UICollectionView.swift */; };
+		CC8B3F832859FFCF008039C3 /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8B3F822859FFCF008039C3 /* UICollectionViewCell.swift */; };
+		CC8B3F89285A0B80008039C3 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = CC8B3F88285A0B80008039C3 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +47,8 @@
 /* Begin PBXFileReference section */
 		CC8347B728527A6400E92E42 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		CC8347B828527A6500E92E42 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		CC8347BE2857B5F900E92E42 /* CryptoCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrency.swift; sourceTree = "<group>"; };
+		CC8347C32857CBA600E92E42 /* CurrencyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyService.swift; sourceTree = "<group>"; };
 		CC86AD2D285128E100B810E1 /* CryptocurrencyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptocurrencyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC86AD30285128E100B810E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC86AD32285128E100B810E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,8 +63,11 @@
 		CC86AD4E285128E700B810E1 /* CryptocurrencyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptocurrencyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC86AD52285128E700B810E1 /* CryptocurrencyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptocurrencyAppUITests.swift; sourceTree = "<group>"; };
 		CC86AD54285128E700B810E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC86AD6328512F1100B810E1 /* HomepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
 		CC86AD6828512F4C00B810E1 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		CC8B3F6F2859F997008039C3 /* HomeScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewModel.swift; sourceTree = "<group>"; };
+		CC8B3F772859FED6008039C3 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		CC8B3F7D2859FF9C008039C3 /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		CC8B3F822859FFCF008039C3 /* UICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC8B3F89285A0B80008039C3 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,17 +119,18 @@
 		CC86AD2F285128E100B810E1 /* CryptocurrencyApp */ = {
 			isa = PBXGroup;
 			children = (
+				CC8B3F7C2859FF05008039C3 /* CollectionViewHelpers */,
+				CC8B3F6E2859F819008039C3 /* DTOs */,
+				CC8B3F6C2859F7AA008039C3 /* Cells */,
+				CC8B3F6B2859F77F008039C3 /* Service */,
+				CC8B3F692859F6A0008039C3 /* Scenes */,
 				CC86AD30285128E100B810E1 /* AppDelegate.swift */,
 				CC86AD32285128E100B810E1 /* SceneDelegate.swift */,
 				CC86AD34285128E100B810E1 /* ViewController.swift */,
-				CC86AD6328512F1100B810E1 /* HomepageViewController.swift */,
-				CC86AD6828512F4C00B810E1 /* FavoritesViewController.swift */,
 				CC86AD36285128E100B810E1 /* Main.storyboard */,
 				CC86AD39285128E600B810E1 /* Assets.xcassets */,
 				CC86AD3B285128E600B810E1 /* LaunchScreen.storyboard */,
 				CC86AD3E285128E600B810E1 /* Info.plist */,
-				CC8347B728527A6400E92E42 /* CollectionViewCell.swift */,
-				CC8347B828527A6500E92E42 /* CollectionViewCell.xib */,
 			);
 			path = CryptocurrencyApp;
 			sourceTree = "<group>";
@@ -140,6 +153,66 @@
 			path = CryptocurrencyAppUITests;
 			sourceTree = "<group>";
 		};
+		CC8B3F692859F6A0008039C3 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				CC8B3F6D2859F7C8008039C3 /* Favorite Screen */,
+				CC8B3F6A2859F6B0008039C3 /* Home Screen */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		CC8B3F6A2859F6B0008039C3 /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CC8B3F6F2859F997008039C3 /* HomeScreenViewModel.swift */,
+				CC8B3F772859FED6008039C3 /* HomeScreen.swift */,
+			);
+			path = "Home Screen";
+			sourceTree = "<group>";
+		};
+		CC8B3F6B2859F77F008039C3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CC8347C32857CBA600E92E42 /* CurrencyService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CC8B3F6C2859F7AA008039C3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CC8347B728527A6400E92E42 /* CollectionViewCell.swift */,
+				CC8347B828527A6500E92E42 /* CollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CC8B3F6D2859F7C8008039C3 /* Favorite Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CC86AD6828512F4C00B810E1 /* FavoritesViewController.swift */,
+			);
+			path = "Favorite Screen";
+			sourceTree = "<group>";
+		};
+		CC8B3F6E2859F819008039C3 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				CC8347BE2857B5F900E92E42 /* CryptoCurrency.swift */,
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		CC8B3F7C2859FF05008039C3 /* CollectionViewHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				CC8B3F7D2859FF9C008039C3 /* UICollectionView.swift */,
+				CC8B3F822859FFCF008039C3 /* UICollectionViewCell.swift */,
+			);
+			path = CollectionViewHelpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,6 +229,9 @@
 			dependencies = (
 			);
 			name = CryptocurrencyApp;
+			packageProductDependencies = (
+				CC8B3F88285A0B80008039C3 /* Kingfisher */,
+			);
 			productName = CryptocurrencyApp;
 			productReference = CC86AD2D285128E100B810E1 /* CryptocurrencyApp.app */;
 			productType = "com.apple.product-type.application";
@@ -227,6 +303,9 @@
 				Base,
 			);
 			mainGroup = CC86AD24285128E100B810E1;
+			packageReferences = (
+				CC8B3F87285A0B80008039C3 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = CC86AD2E285128E100B810E1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -271,12 +350,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC86AD6428512F1100B810E1 /* HomepageViewController.swift in Sources */,
+				CC8347BF2857B5FB00E92E42 /* CryptoCurrency.swift in Sources */,
 				CC86AD35285128E100B810E1 /* ViewController.swift in Sources */,
 				CC8347B928527A6500E92E42 /* CollectionViewCell.swift in Sources */,
+				CC8B3F782859FED6008039C3 /* HomeScreen.swift in Sources */,
+				CC8347C42857CBA600E92E42 /* CurrencyService.swift in Sources */,
+				CC8B3F832859FFCF008039C3 /* UICollectionViewCell.swift in Sources */,
+				CC8B3F7E2859FF9C008039C3 /* UICollectionView.swift in Sources */,
 				CC86AD31285128E100B810E1 /* AppDelegate.swift in Sources */,
 				CC86AD6928512F4C00B810E1 /* FavoritesViewController.swift in Sources */,
 				CC86AD33285128E100B810E1 /* SceneDelegate.swift in Sources */,
+				CC8B3F702859F997008039C3 /* HomeScreenViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -603,6 +687,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CC8B3F87285A0B80008039C3 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.2.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CC8B3F88285A0B80008039C3 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC8B3F87285A0B80008039C3 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CC86AD25285128E100B810E1 /* Project object */;
 }
